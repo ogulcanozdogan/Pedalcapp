@@ -1,0 +1,9 @@
+flutter_native_splash:
+  color: "#42a5f5"  # background-color (hex code)
+  image: assets/images/splash.png  # Splash screen pic
+  android: true
+  ios: true
+  web: false
+  fullscreen: true  # Tam ekran ayarı
+  ios_content_mode: scaleToFill  # iOS için içerik modu
+  android_gravity: fill  # Android için yerleşim ayarı

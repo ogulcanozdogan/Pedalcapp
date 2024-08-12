@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639685857613",
+    "project_id": "pedalcapp-52f63",
+    "storage_bucket": "pedalcapp-52f63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639685857613:android:340392f63aca453dcce704",
+        "android_client_info": {
+          "package_name": "com.example.Pedalcapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpzo6uZkv0jH8SRDCwPNSs9D3X61GJTeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
