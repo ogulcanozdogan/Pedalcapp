@@ -11,6 +11,10 @@ class SelectApp extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Image.asset(
+              'assets/images/logo.png',
+              height: 200,
+            ),
             const Text(
               'Select Your Service',
               style: TextStyle(
