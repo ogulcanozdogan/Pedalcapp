@@ -18,6 +18,8 @@ import 'package:Pedalcapp/screens/hourlyServices/BookingConfirmationScreenHourly
 import 'package:Pedalcapp/screens/centralParkTour/BookingConfirmationScreenCentral.dart';
 import 'package:Pedalcapp/screens/centralParkTour/RideInformationCentral.dart';
 import 'package:Pedalcapp/screens/SelectApp.dart';
+import 'package:Pedalcapp/screens/LoginScreen.dart';
+import 'package:Pedalcapp/screens/RegisterScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:Pedalcapp/screens/SplashScreen.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -54,8 +56,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         theme: ThemeData(fontFamily: "Poppins"),
-        initialRoute: '/splash',
+        initialRoute: '/login',
         routes: {
+          "/login": (context) => const LoginScreen(), // Login Screen
+          "/register": (context) => const RegisterScreen(), // Register Screen
           "/splash": (context) => const SplashScreen(),
           "/selectApp": (context) => const SelectApp(), // Screen 1
           "/rideInformation": (context) => const RideInformation(), // Screen 2
